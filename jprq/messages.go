@@ -1,4 +1,4 @@
-package cfc
+package jprq
 
 import (
 	"bytes"
