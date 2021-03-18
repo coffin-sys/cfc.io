@@ -1,10 +1,10 @@
-package jprq
+package cfc
 
 import (
 	"net/http"
 )
 
-func (j Jprq) HttpHandler(writer http.ResponseWriter, request *http.Request) {
+func (j Cfc) HttpHandler(writer http.ResponseWriter, request *http.Request) {
 	host := request.Host
 	tunnel, err := j.GetTunnelByHost(host)
 
