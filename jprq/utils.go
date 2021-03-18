@@ -1,4 +1,4 @@
-package jprq
+package cfc
 
 import (
 	cryptorand "crypto/rand"
