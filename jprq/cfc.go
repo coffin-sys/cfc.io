@@ -1,4 +1,4 @@
-package cfc
+package jprq
 
 type Cfc struct {
 	baseHost string
