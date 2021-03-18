@@ -1,4 +1,4 @@
-package jprq
+package cfc
 
 import (
 	"fmt"
@@ -18,7 +18,7 @@ var upgrader = websocket.Upgrader{
 	},
 }
 
-func (j Jprq) WebsocketHandler(w http.ResponseWriter, r *http.Request) {
+func (j Cfc) WebsocketHandler(w http.ResponseWriter, r *http.Request) {
 	ws, err := upgrader.Upgrade(w, r, nil)
 	if err != nil {
 		return
