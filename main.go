@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/coffin-sys/cfc.io/cfc"
+	"github.com/coffin-sys/cfc.io/jprq"
 	"github.com/gorilla/mux"
 	"github.com/labstack/gommon/log"
 	"net/http"
